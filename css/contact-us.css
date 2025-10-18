@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  gap: 430px;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 64px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lato", san-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 141%;
+  letter-spacing: 0%;
+}
+.nav-links li a:hover {
+  color: #1429a9;
+}
+.hero {
+  display: flex;
+  /* justify-self: center; */
+  background-image: url(../images/hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.hero-content {
+  padding-left: 120px;
+  padding-top: 121px;
+  padding-bottom: 121px;
+}
+.hero-content h1 {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  width: 620px;
+}
+.hero-content p {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 134%;
+}
+.get-in-touch {
+  display: block;
+}
+
+.get-in-touch .content {
+  display: flex;
+}
+.get-in-touch h4 {
+  text-align: center;
+  font-family: "Lato" sans-serif;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  line-height: 134%;
+  padding-top: 120px;
+}
+.get-in-touch .content .left-side {
+  padding-left: 122px;
+  width: 40%;
+}
+.get-in-touch .content .left-side p {
+  width: 380px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 134%;
+  padding-top: 56px;
+}
+.get-in-touch .content .left-side .contact-item-1 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 134%;
+  padding-top: 24px;
+}
+
+.get-in-touch .content .left-side .contact-item-2 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 134%;
+  padding-top: 16px;
+}
+
+.get-in-touch .content .left-side .contact-item-1 img {
+  padding-right: 8px;
+  color: #c19d59;
+}
+
+.get-in-touch .content .left-side .contact-item-2 img {
+  padding-right: 8px;
+  color: #c19d59;
+}
+
+.get-in-touch .content .left-side h5 {
+  padding-top: 24px;
+  font-family: Lato;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 40px;
+  line-height: 134%;
+  padding-top: 24px;
+}
+
+.get-in-touch .content .left-side .time {
+  padding-top: 24px;
+}
+.get-in-touch .content .left-side .time p {
+  padding-top: 0;
+}
+.get-in-touch .content .left-side .title {
+  padding-top: 24px;
+}
+.get-in-touch .content .left-side .social-icons {
+  padding-top: 16px;
+}
+
+.get-in-touch .content .right-side {
+  width: 60%;
+  padding-right: 122px;
+}
+
+.get-in-touch .content .right-side form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+}
+
+.get-in-touch .content .right-side form > * + * {
+  margin-top: 32px;
+}
+
+.get-in-touch .content .right-side form input {
+  height: 60px;
+  background-color: #f9f9f9;
+  border: 1.5px;
+  border-color: #cacaca;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+.get-in-touch .content .right-side form textarea {
+  height: 179px;
+  background-color: #f9f9f9;
+  border: 1.5px;
+  border-color: #cacaca;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+.get-in-touch .content .right-side form button {
+  background-color: #1429a9;
+  color: white;
+  width: 200px;
+  height: 61px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 100%;
+}
+.visit-us {
+  display: flex;
+  background-color: #f8f8f9;
+  height: 639px;
+  margin-top: 120px;
+}
+.visit-us-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+}
+.map-container {
+  width: 810px;
+  height: 639px;
+}
+.visit-us-title {
+  padding-bottom: 16px;
+  font-family: Lato;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 134%;
+}
+.address-label {
+  font-family: Lato;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 134%;
+}
+.address-text {
+  padding-top: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 134%;
+}
+.footer {
+  background: url("images/Rectangle 10.svg") no-repeat center/contain;
+  background-color: #f7f8ff;
+}
+.footer-container {
+  position: relative;
+  background-image: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px;
+  height: 452px;
+  width: 1076px;
+  margin-top: 127px;
+}
+.footer-about {
+  flex: 1;
+  margin-left: 120px;
+}
+.footer-logo {
+  margin-top: 98px;
+}
+.footer-p {
+  width: 270px;
+  margin-top: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 134%;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 134%;
+}
+.contact-item img {
+  margin-right: 8px;
+}
+.footer-title {
+  margin-top: 98px;
+  font-family: Lato;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 134%;
+  color: #1429a9;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links ul li {
+  margin-bottom: 24px;
+}
+.footer-links ul li a {
+  color: #1f1f21;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 134%;
+}
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+.footer-email p {
+  font-size: 14px;
+  width: 100px;
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 134%;
+}
+#scroll-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #c19d59;
+  color: #fff;
+  border-radius: 50%; /* Makes the button round */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Removes the underline */
+  font-size: 24px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures the button is on top of other content */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scroll-to-top:hover {
+  background-color: #1429a9; /* Darker blue on hover */
+}
